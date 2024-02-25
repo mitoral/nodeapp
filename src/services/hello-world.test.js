@@ -6,5 +6,4 @@ describe("HelloWordService Test", () => {
   it("says 'Hello John!' to greet John", () => {
     expect(helloWordService.greet("John")).toBe("Hello John!");
   });
-
 });
